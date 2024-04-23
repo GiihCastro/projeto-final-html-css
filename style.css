@@ -94,16 +94,19 @@ button {
     align-items: center;
 
     font-size: 24px;
+
+    cursor: pointer;
 }
 
 .linhared button {
-    background: linear-gradient(180deg, rgb(120, 40, 40) 0%, rgb(120, 40, 20) 100%);
+    background: linear-gradient(180deg, rgb(120, 40, 40) 0%, rgb(112, 36, 18) 100%);
     border: 1px color #782828;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .linhaequal button {
-    background: linear-gradient(180deg, rgb(226, 69, 69) 0%, rgb(226, 69, 69) 100%);
+    background: linear-gradient(180deg, rgb(226, 69, 69) 0%, rgb(199, 58, 58) 100%);
+    box-shadow: 5px 5px 10px 0px rgba(22, 22, 22, 0.5);
 }
 
 h1{
