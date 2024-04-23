@@ -98,15 +98,27 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background: linear-gradient(250deg, rgb(38, 35, 46) 0%, rgb(39, 35, 49) 100%);
+}
+
 .linhared button {
     background: linear-gradient(180deg, rgb(120, 40, 40) 0%, rgb(112, 36, 18) 100%);
     border: 1px color #782828;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
+.linhared button:hover {
+    background: linear-gradient(180deg, rgb(100, 33, 33) 0%, rgb(85, 27, 14) 100%);
+}
+
 .linhaequal button {
     background: linear-gradient(180deg, rgb(226, 69, 69) 0%, rgb(199, 58, 58) 100%);
     box-shadow: 5px 5px 10px 0px rgba(22, 22, 22, 0.5);
+}
+
+.linhaequal button:hover {
+    background: linear-gradient(180deg, rgb(177, 54, 54) 0%, rgb(158, 45, 45) 100%);
 }
 
 h1{
