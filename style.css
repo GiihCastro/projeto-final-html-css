@@ -78,11 +78,11 @@ body {
 }
 
 button {
-    background: linear-gradient(180deg, rgb(45, 42, 55) 0%, rgb(50, 46, 65) 100%);
+    background: linear-gradient(250deg, rgb(45, 42, 55) 0%, rgb(50, 46, 63) 100%);
 
     border-radius: 25px;
-    border: 1px color #2D2A37;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: 5px 5px 10px 0px rgba(22, 22, 22, 0.5);
     color: white;
 
     display: flex;
