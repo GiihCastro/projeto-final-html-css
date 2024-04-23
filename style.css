@@ -1,0 +1,117 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Rubik", sans-serif;
+    background-color: #CE7E7E;
+}
+
+.block {
+    margin: auto;
+    margin-top: 100px;
+
+    max-width: 356px;
+    height: 566px;
+
+    background-color: #2D2A37;
+    border-radius: 20px;
+
+    display: block;
+
+    padding: 32px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr); 
+    gap: 2px;
+}
+
+.block > div:nth-child(1) {
+    grid-row: span 2;
+    grid-column: span 4;
+
+}
+
+.linha1 > div:nth-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.result {
+    margin-top: 20px;
+
+    display: flex;
+    
+}
+
+.result p {
+    color: #6B6B6B;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+   position: relative;
+   left: 290px;
+
+
+}
+
+.result img {
+    width: 20px;
+    height: 20px;
+
+    position: relative;
+    margin-top: 75px;
+}
+
+#two {
+    color: white;
+    font-size: 36px;
+
+    align-self: end;
+
+    position: relative;
+    left: 250px;
+}
+
+button {
+    background: linear-gradient(180deg, rgb(45, 42, 55) 0%, rgb(50, 46, 65) 100%);
+
+    border-radius: 25px;
+    border: 1px color #2D2A37;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+
+    display: flex;
+
+    width: 74px;
+    height: 74px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+}
+
+.linhared button {
+    background: linear-gradient(180deg, rgb(120, 40, 40) 0%, rgb(120, 40, 20) 100%);
+    border: 1px color #782828;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.linhaequal button {
+    background: linear-gradient(180deg, rgb(226, 69, 69) 0%, rgb(226, 69, 69) 100%);
+}
+
+h1{
+    margin: auto;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+button img {
+    margin: auto;
+}
